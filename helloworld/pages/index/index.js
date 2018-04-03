@@ -16,7 +16,8 @@ Page({
       { name: '从底部弹出的选择器（picker）',path: 'picker/picker'},
       { name: '嵌入页面的滚动选择器（picker-view）', path: 'picker-view/picker-view' },
       { name: '富文本（richtext）', path: 'richtext/rt' },
-      { name: '多行输入框（textarea)', path: 'textarea/textarea' }
+      { name: '多行输入框（textarea)', path: 'textarea/textarea' },
+      { name: '滑动选择器（slider)', path: 'slider/slider' }
     ],
     radioCheckedIndex: 0
   },
