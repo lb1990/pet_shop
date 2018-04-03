@@ -1,0 +1,5 @@
+<view>{{title}}</view>
+<view>
+  <!-- <navigator url='../'>点击左上角返回到 上级 页面</navigatorg> -->
+  点击左上角返回到 上级 页面
+</view>

@@ -1,0 +1,5 @@
+<view>
+  <navigator url='/pages/navigator/navigator?title=navigate'>跳转到新页面</navigator>
+  <navigator url='../redirect/redirect?title=redirect' open-type='redirect'>在当前页打开</navigator>
+  <navigator url='/pages/textarea/textarea' open-type='switchTab' hover-class='other-navigator-hover'>切换</navigator>
+</view>

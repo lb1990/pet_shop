@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<!-- <scroll-view class="container">
+ 
+  <view class="usermotto">
+    <text class='user-motto'>{{motto}}</text>
+    用户名：
+    <input type='text' bindinput='userNameInput'></input>
+    密码：
+    <input type='text' bindinput='userPasswordInput' password='true'></input>
+    <button bindtap='logIn'>登录</button>
+  </view>
+</scroll-view> -->

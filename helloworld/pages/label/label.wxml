@@ -1,0 +1,28 @@
+<view>
+<view>表单组件在label内</view>
+<checkbox-group class='group' bindchange='checkboxChange'>
+  <view wx:for="{{checkboxItems}}">
+    <label>
+      <checkbox hidden='{{hidden}}' value='{{item.name}}' checked='{{item.checked}}'></checkbox>
+      <view class='label-1__icon'>
+        <view class='label-1__icon-checked' style='opacity:{{item.checked ? 1 : 0}}'></view>
+      </view>
+      <text>{{item.value}}</text>
+    </label>
+  </view>
+</checkbox-group>
+</view>
+
+<view>
+<radio-group class='group' bindchange='radioChange'>
+  <view wx:for="{{radioItems}}">
+    <radio id='{{item.name}}' hidden='{{hidden}}' value='{{item.name}}' checked='{{item.checked}}'></radio>
+    <view class='label-2_icon'>
+      <view class='label-2__icon-checked' style='opacity:{{item.checked ? 1 : 0}}'></view>
+    </view>
+    <label class='label-2_text' for='{{item.name}}'>
+      <text>{{item.name}}</text>
+    </label>
+  </view>
+</radio-group>
+</view>

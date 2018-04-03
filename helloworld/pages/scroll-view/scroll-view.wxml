@@ -1,0 +1,19 @@
+<!-- <view> -->
+  <scroll-view scroll-x="true" style="white-space:nowrap;display:flex" >
+    <view id='red' style='background:red;width:200px;height:100px;display:inline-block'></view>
+    <view id='green' style='background:green;width:200px;height:100px;display:inline-block'></view>
+    <view id='yellow' style='background:yellow;width:200px;height:100px;display:inline-block'></view>
+    <view id='blue' style='background:blue;width:200px;height:100px;display:inline-block'></view>
+  </scroll-view>
+  <scroll-view scroll-y="true" style="height:200px;" >
+    <view id='green' style='background:green;width:100px;height:100px'></view>
+    <view id='red' style='background:red;width:100px;height:100px'></view>
+    <view id='blue' style='background:blue;width:100px;height:100px'></view>
+    <view id='yellow' style='background:yellow;width:100px;height:100px'></view>
+  </scroll-view> 
+    
+  <!-- <view class='btn-area'>
+    <button size='mini' bindtap='tap'>click me to scroll into view</button>
+    <button size='mini' bindtap='tapMove'>click me to scroll</button>
+  </view>
+</view> -->

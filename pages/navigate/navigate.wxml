@@ -1,0 +1,2 @@
+<view>{{title}}</view>
+<view>点击左上角返回到之前页面</view>

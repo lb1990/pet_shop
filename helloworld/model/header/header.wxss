@@ -1,0 +1,29 @@
+/* model/header/header.wxss */
+.userinfo {
+  flex-direction: column;
+  display: flex;
+  align-items: center
+}
+.userinfo-avatar {
+  width: 240rpx;
+  height: 120rpx;
+  margin: 20rpx;
+  border-radius: 30%;
+}
+.block {
+  margin:30rpx 30rpx auto 30rpx;
+  background:#fff;
+  border-radius:3%;
+}
+.block1 {
+  width:700rpx;
+  height:300rpx;
+}
+.block2 {
+  width:700rpx;
+  height:300rpx;
+}
+.icontext{
+  display:flex;
+  align-item:center;
+}

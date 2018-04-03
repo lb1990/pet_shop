@@ -1,0 +1,10 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}"
+  interval='{{internal}}' duration='{{duration}}'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item >
+      <image src="{{item}}" width="355" height="150"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<button bindtap='changeIndicatorDots'>indicatorDots</button>
+<button bindtap='changeAutoplay'>autoplay</button>

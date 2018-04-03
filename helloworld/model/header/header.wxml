@@ -1,0 +1,43 @@
+<label>
+  <navigator open-type='navigate' url='/pages/index/index'>
+    导航灯
+    
+  </navigator>
+</label>
+<view style='background:#F5F5DC;height:600px'>
+  <view class='userinfo'>
+        <button wx:if='{{!hasUserInfo&&canIUse}}' open-type='getUserInfo'           bindgetuserinfo='getUserInfo'>获取头像昵称</button>
+        <block wx:else>
+          <image class='userinfo-avatar' src='{{userInfo.avatarUrl}}'  background-size="cover"></image>
+          <text style='display:block;text-align:center'>{{userInfo.nickName}} </text>
+          <text style='display:block;text-align:center'>{{userInfo.country}}</text>
+        </block>
+  </view>
+  <view class='block'>
+    <view class='icontext'>
+      <icon type='info'></icon>    
+      <text style='margin:0px auto auto 5px'>我的订单</text>
+    </view>
+    <scroll-view scroll-x style='white-space:nowrap;display:flex;margin-top:50rpx'>
+        <label wx:for='{{flowDes}}' style='display:inline-block'>
+        <view id='{{item.id}}' style='width:60px' bindtap='flowChange'>
+          <image src='{{item.imgUrl}}' background-size='cover' style='width:35px;height:35px;margin:5rpx 3rpx auto 15rpx'></image>
+          <text style='float:left;font-size:30rpx;margin-left:5px'>{{item.name}}</text>
+        </view>
+      </label> 
+    </scroll-view>
+  </view>
+  <view class='block block1'>
+    <scroll-view scroll-y>
+      <view class='icontext' style='margin:20px auto auto 20px'>
+        <icon type='success'></icon>
+        <text style='margin:0px auto auto 5px'>我发布的帖子</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class='block block2'>
+    <view>
+      <icon type='success'></icon>
+    </view>
+  </view>
+</view>

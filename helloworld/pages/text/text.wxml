@@ -1,0 +1,7 @@
+<view>
+  <view>
+    <text>{{text}}</text>
+    <button bindtap='add'>add line</button>
+  </view>
+  
+</view>

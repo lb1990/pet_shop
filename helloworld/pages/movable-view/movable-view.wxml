@@ -1,0 +1,3 @@
+<movable-area style="background:blue; width:auto; height:400px">
+  <movable-view direction="all" style="background:red; width:100px; height:100px"></movable-view>
+</movable-area>

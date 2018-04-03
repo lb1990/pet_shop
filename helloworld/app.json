@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "model/header/header",
+    "pages/index/index",
+    "pages/button/button",
+    "pages/navigator/simple/simple",
+    "pages/navigator/navigator",
+    "pages/navigator/redirect/redirect",
+    "pages/navigator/index/index",
+    "pages/textarea/textarea",
+    "pages/switch/switch",
+    "pages/slider/slider",
+    "pages/radio/radio",
+    "pages/picker-view/picker-view",
+    "pages/picker/picker",
+    "pages/label/label",
+    "pages/progress/pro",
+    "pages/text/text",
+    "pages/icon/icon",
+    "pages/richtext/rt",
+    "pages/movable-view/movable-view",
+    "pages/swiper/swiper",
+    "pages/scroll-view/scroll-view",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF8DC",
+    "navigationBarTitleText": "HiChat",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,8 @@
+<text>1</text>
+<progress percent='20' show-info></progress>
+<text>2</text>
+<progress percent="40" shroke-width="40"></progress>
+<text>3</text>
+<progress percent='60' color='pink'></progress>
+<text>4</text>
+<progress percent='80' active=''></progress>

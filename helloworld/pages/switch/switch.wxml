@@ -1,0 +1,4 @@
+<view>
+  <switch checked bindchange='change1'></switch>
+  <switch bindchange='change2'></switch>
+</view>

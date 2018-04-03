@@ -1,0 +1,14 @@
+<view>
+  <text>设置step</text>
+  <slider max='100' step='5' show-value='true' bindchange='change1'></slider>
+</view>
+<view>
+  <text>显示当前value</text>
+  <slider show-value bindchange='change2'></slider>
+</view>
+<view>
+  <text>显示最小和最大值</text>
+  <view>
+    <slider show-value='70' bindchange='change3' max='100' min='10'></slider>
+  </view>
+</view>
