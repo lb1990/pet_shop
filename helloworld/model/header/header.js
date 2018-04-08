@@ -1,5 +1,5 @@
 // model/header/header.js
-const app = getApp()
+const app = getApp();
 Page({
 
   /**
@@ -8,6 +8,7 @@ Page({
   data: {
     hasUserInfo: false,
     userInfo:null,
+    sysInfo:null,
     canIUse: false,
     flowDes:[
       { id:'1', name:'代付款',imgUrl:'../../img/1.png'},
@@ -69,6 +70,13 @@ Page({
 
         }
       }
+    });
+    wx.getSystemInfo({
+      success: res => {
+        this.setData({
+          sysInfo: res
+        })
+      }
     })
   },
 
@@ -103,8 +111,8 @@ Page({
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
-  
+  onPullDownRefresh: function (e) {
+    console.log("pull downing ...");
   },
 
   /**

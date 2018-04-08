@@ -27,7 +27,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFF8DC",
     "navigationBarTitleText": "HiChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": "true"
   },
   "tabBar": {
     "list": [{

@@ -10,19 +10,26 @@
   margin: 20rpx;
   border-radius: 30%;
 }
-.block {  
+.bg-block {  
   margin:30rpx 30rpx 30rpx 30rpx;
-  background:#fff;
-  border-radius:3%;
 }
-.block1 {
+.item-block {
+  margin:5rpx auto 5rpx auto;
   background:#fff;
-  height:100rpx;
-  padding:10rpx 10rpx;   
+  border-radius:3%; 
 }
-.block2 {
-  width:700rpx;
-  height:300rpx;
+.item-icon {
+  float:left;
+  display:block;
+  margin-top:10rpx;
+}
+.item-text {
+  float:left;
+  display:block;
+  margin:5rpx 10rpx;
+}
+.item-flag {
+
 }
 .icontext{
   display:flex;

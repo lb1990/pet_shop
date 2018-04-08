@@ -27,9 +27,9 @@
       </label> 
     </scroll-view>
   </view>
-  <view style='height:{{myBox.length*120}}rpx; margin-top: 15rpx; margin-bottom: 15rpx'>
+  <view class='bg-block' style='height:{{myBox.length*95}}rpx; margin-top: 15rpx; margin-bottom: 15rpx'>
     <scroll-view scroll-y wx:for="{{myBox}}">
-      <view class='block1 icontext' style='margin:2px auto auto 10px'>
+      <view class='item-block icontext' style='width:680rpx'>
         <view style='margin-top:10rpx;'>
           <icon style='margin-top:10rpx' type='{{item.icon}}'></icon>
           <text style='margin:5rpx 10rpx'>{{item.name}}</text>
@@ -37,15 +37,14 @@
       </view>
     </scroll-view>
   </view>
-  <view class='block block1'>
-    <scroll-view scroll-y>
-      <view class='icontext' style='margin:20px auto auto 20px'>
-        <icon type='success'></icon>
-        <text style='margin:0px auto auto 5px'>我发布的帖子</text>
-      </view>
-      <view class='icontext' style='margin:20px auto auto 20px'>
-        <icon type='success'></icon>
-        <text style='margin:0px auto auto 5px'>我发布的帖子</text>
+  <view class='bg-block' style='height:{{compBox.length*95}}rpx; margin-top: 15rpx; margin-bottom: 15rpx;'>
+    <scroll-view scroll-y wx:for="{{compBox}}">
+      <view class='item-block icontext'>
+        <view style='margin-top:10rpx;width:680rpx'>
+          <icon class='item-icon' type='{{item.icon}}'></icon>
+          <text class='item-text'>{{item.name}}</text>
+          <text style='float:right;display:inline;margin-right:5rpx'>go</text>
+        </view>
       </view>
     </scroll-view>
   </view>
