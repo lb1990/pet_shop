@@ -15,6 +15,18 @@ Page({
       { id: '3',name: '待收货', imgUrl: '../../img/3.png' },
       { id: '4',name: '已完成', imgUrl: '../../img/4.png' },
       { id: '5',name: '退款/售后', imgUrl: '../../img/5.png' }
+    ],
+    myBox:[
+      {name:'我发布的帖子', icon:'success'},
+      { name: '我的收藏', icon: 'info' },
+      { name: '我的钱包', icon: 'search' },
+      { name: '我的114', icon: 'clear' }
+    ],
+    compBox: [
+      { name: '联系客服', icon: 'success' },
+      { name: '帮助中心', icon: 'info' },
+      { name: '关于我们', icon: 'search' },
+      { name: '我要入驻', icon: 'clear' }
     ]
   },
   getUserInfo: function(e) {

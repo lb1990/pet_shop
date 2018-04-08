@@ -27,17 +27,26 @@
       </label> 
     </scroll-view>
   </view>
+  <view style='height:{{myBox.length*120}}rpx; margin-top: 15rpx; margin-bottom: 15rpx'>
+    <scroll-view scroll-y wx:for="{{myBox}}">
+      <view class='block1 icontext' style='margin:2px auto auto 10px'>
+        <view style='margin-top:10rpx;'>
+          <icon style='margin-top:10rpx' type='{{item.icon}}'></icon>
+          <text style='margin:5rpx 10rpx'>{{item.name}}</text>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
   <view class='block block1'>
     <scroll-view scroll-y>
       <view class='icontext' style='margin:20px auto auto 20px'>
         <icon type='success'></icon>
         <text style='margin:0px auto auto 5px'>我发布的帖子</text>
       </view>
+      <view class='icontext' style='margin:20px auto auto 20px'>
+        <icon type='success'></icon>
+        <text style='margin:0px auto auto 5px'>我发布的帖子</text>
+      </view>
     </scroll-view>
-  </view>
-  <view class='block block2'>
-    <view>
-      <icon type='success'></icon>
-    </view>
   </view>
 </view>

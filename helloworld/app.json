@@ -28,5 +28,23 @@
     "navigationBarBackgroundColor": "#FFF8DC",
     "navigationBarTitleText": "HiChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "model/header/header",
+        "text": "首页",
+        "iconPath": "img/busi/busi.png",
+        "selectedIconPath": "img/busi/selbusi.png"
+      },{
+      "pagePath": "model/header/header",
+      "text": "商家",
+      "iconPath": "img/busi/busi.png",
+      "selectedIconPath": "img/busi/selbusi.png"
+    },{
+      "pagePath": "model/header/header",
+      "text": "我的",
+      "iconPath": "img/me/me.png",
+      "selectedIconPath": "img/me/selme.png"
+    }]
   }
 }

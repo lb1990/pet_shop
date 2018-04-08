@@ -10,14 +10,15 @@
   margin: 20rpx;
   border-radius: 30%;
 }
-.block {
-  margin:30rpx 30rpx auto 30rpx;
+.block {  
+  margin:30rpx 30rpx 30rpx 30rpx;
   background:#fff;
   border-radius:3%;
 }
 .block1 {
-  width:700rpx;
-  height:300rpx;
+  background:#fff;
+  height:100rpx;
+  padding:10rpx 10rpx;   
 }
 .block2 {
   width:700rpx;
