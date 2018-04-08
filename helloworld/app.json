@@ -21,7 +21,8 @@
     "pages/movable-view/movable-view",
     "pages/swiper/swiper",
     "pages/scroll-view/scroll-view",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/contact-btn/contact-btn"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -32,12 +33,12 @@
   },
   "tabBar": {
     "list": [{
-        "pagePath": "model/header/header",
+        "pagePath": "fpage/fpage",
         "text": "首页",
         "iconPath": "img/busi/busi.png",
         "selectedIconPath": "img/busi/selbusi.png"
       },{
-      "pagePath": "model/header/header",
+      "pagePath": "shop/shop",
       "text": "商家",
       "iconPath": "img/busi/busi.png",
       "selectedIconPath": "img/busi/selbusi.png"

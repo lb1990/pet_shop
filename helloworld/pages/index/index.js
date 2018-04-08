@@ -20,7 +20,8 @@ Page({
       { name: '多行输入框（textarea)', path: 'textarea/textarea' },
       { name: '滑动选择器（slider)', path: 'slider/slider' },
       { name: '滑块视图容器（swiper)', path: 'swiper/swiper' },
-      { name: '单选项目(radio)', path: 'radio/radio'}
+      { name: '单选项目(radio)', path: 'radio/radio'},
+      { name: '客服会话按钮（contact-btn）', path:'contact-btn/contact-btn'}
     ],
     radioCheckedIndex: 0
   },
